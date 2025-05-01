@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.403s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.404s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.730s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.772s] -- Configuring done
+[0.774s] -- Generating done
+[0.775s] -- Build files have been written to: /home/garv/Desktop/Project/build/car
+[0.794s] Invoked command in '/home/garv/Desktop/Project/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+[0.803s] Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car
+[0.809s] -- Install configuration: ""
+[0.809s] -- Execute custom install script
+[0.809s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car//launch/__pycache__/launch.cpython-38.pyc
+[0.809s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car//launch/launch.py
+[0.810s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car//urdf/car.xacro
+[0.810s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.810s]   ament_cmake_symlink_install_directory() can't find
+[0.810s]   '/home/garv/Desktop/Project/src/car/rviz'
+[0.810s] Call Stack (most recent call first):
+[0.810s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.810s]   cmake_install.cmake:41 (include)
+[0.810s] 
+[0.810s] 
+[0.811s] Invoked command in '/home/garv/Desktop/Project/build/car' returned '1': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car

@@ -1,0 +1,130 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcab943f220>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcab943f220>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fcab9388ca0>)
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.269s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/garv/Desktop/Project/src'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(car) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'car' with type 'ros.ament_cmake' and name 'car'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/garv/Desktop/Project/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.295s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/garv/Desktop/Project/install/car' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.295s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/garv/Desktop/Project/install/car' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/garv/Desktop/Project/src/build/car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/garv/Desktop/Project/src/install/car', 'merge_install': False, 'path': '/home/garv/Desktop/Project/src/car', 'symlink_install': False, 'test_result_base': None}
+[0.347s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/garv/Desktop/Project/src/car' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/garv/Desktop/Project/src/car'
+[0.349s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/garv/garv_ws/devel'
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/garv/Desktop/Project/src/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake /home/garv/Desktop/Project/src/car -DCMAKE_INSTALL_PREFIX=/home/garv/Desktop/Project/src/install/car
+[1.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/garv/Desktop/Project/src/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake /home/garv/Desktop/Project/src/car -DCMAKE_INSTALL_PREFIX=/home/garv/Desktop/Project/src/install/car
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/garv/Desktop/Project/src/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/src/build/car -- -j8 -l8
+[1.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/garv/Desktop/Project/src/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/src/build/car -- -j8 -l8
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/garv/Desktop/Project/src/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/src/build/car
+[1.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car)
+[1.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/garv/Desktop/Project/src/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/src/build/car
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car' for CMake module files
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car' for CMake config files
+[1.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('car', 'cmake_prefix_path')
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.ps1'
+[1.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.dsv'
+[1.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.sh'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/bin'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/lib/pkgconfig/car.pc'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/lib/python3.8/site-packages'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/bin'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/garv/Desktop/Project/src/install/car/share/car/package.dsv'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.sh'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.bash'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.zsh'
+[1.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/garv/Desktop/Project/src/install/car/share/colcon-core/packages/car)
+[1.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car)
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car' for CMake module files
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car' for CMake config files
+[1.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('car', 'cmake_prefix_path')
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/garv/Desktop/Project/src/install/car/share/car/hook/cmake_prefix_path.sh'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/bin'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/lib/pkgconfig/car.pc'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/lib/python3.8/site-packages'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/garv/Desktop/Project/src/install/car/bin'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/garv/Desktop/Project/src/install/car/share/car/package.dsv'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.sh'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.bash'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/garv/Desktop/Project/src/install/car/share/car/package.zsh'
+[1.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/garv/Desktop/Project/src/install/car/share/colcon-core/packages/car)
+[1.813s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.813s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.813s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.813s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.817s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.828s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/garv/Desktop/Project/src/install/local_setup.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/garv/Desktop/Project/src/install/_local_setup_util_ps1.py'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/garv/Desktop/Project/src/install/setup.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/garv/Desktop/Project/src/install/local_setup.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/garv/Desktop/Project/src/install/_local_setup_util_sh.py'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/garv/Desktop/Project/src/install/setup.sh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/garv/Desktop/Project/src/install/local_setup.bash'
+[1.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/garv/Desktop/Project/src/install/setup.bash'
+[1.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/garv/Desktop/Project/src/install/local_setup.zsh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/garv/Desktop/Project/src/install/setup.zsh'

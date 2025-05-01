@@ -1,0 +1,4 @@
+source;share/car/local_setup.bash
+source;share/car/local_setup.dsv
+source;share/car/local_setup.sh
+source;share/car/local_setup.zsh

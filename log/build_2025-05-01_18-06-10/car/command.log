@@ -1,0 +1,4 @@
+Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+Invoked command in '/home/garv/Desktop/Project/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car
+Invoked command in '/home/garv/Desktop/Project/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car

@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+[0.044s] Invoked command in '/home/garv/Desktop/Project/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+[0.057s] Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car
+[0.063s] -- Install configuration: ""
+[0.063s] -- Execute custom install script
+[0.064s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/ament_index/resource_index/package_run_dependencies/car
+[0.064s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/ament_index/resource_index/parent_prefix_path/car
+[0.064s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/environment/path.sh
+[0.065s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/environment/path.dsv
+[0.065s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/local_setup.bash
+[0.065s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/local_setup.sh
+[0.065s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/local_setup.zsh
+[0.066s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/local_setup.dsv
+[0.066s] -- Symlinking: /home/garv/Desktop/Project/install/car/share/car/package.dsv
+[0.075s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/ament_index/resource_index/packages/car
+[0.075s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/cmake/carConfig.cmake
+[0.075s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/cmake/carConfig-version.cmake
+[0.075s] -- Up-to-date symlink: /home/garv/Desktop/Project/install/car/share/car/package.xml
+[0.077s] Invoked command in '/home/garv/Desktop/Project/build/car' returned '0': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --install /home/garv/Desktop/Project/build/car

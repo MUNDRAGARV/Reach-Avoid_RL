@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/garv/Desktop/Project/build/car': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.187s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.193s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.336s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.437s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.768s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.775s] CMake Error at CMakeLists.txt:25 (find_package):
+[0.775s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[0.775s]   asked CMake to find a package configuration file provided by "launch", but
+[0.775s]   CMake did not find one.
+[0.775s] 
+[0.775s]   Could not find a package configuration file provided by "launch" with any
+[0.775s]   of the following names:
+[0.776s] 
+[0.776s]     launchConfig.cmake
+[0.776s]     launch-config.cmake
+[0.776s] 
+[0.776s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[0.776s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[0.776s]   provides a separate development package or SDK, be sure it has been
+[0.776s]   installed.
+[0.776s] 
+[0.776s] 
+[0.776s] -- Configuring incomplete, errors occurred!
+[0.777s] See also "/home/garv/Desktop/Project/build/car/CMakeFiles/CMakeOutput.log".
+[0.777s] See also "/home/garv/Desktop/Project/build/car/CMakeFiles/CMakeError.log".
+[0.781s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.784s] Invoked command in '/home/garv/Desktop/Project/build/car' returned '2': CMAKE_PREFIX_PATH=/home/garv/Desktop/Project/install/car:/opt/ros/foxy:/home/garv/garv_ws/devel /usr/bin/cmake --build /home/garv/Desktop/Project/build/car -- -j8 -l8

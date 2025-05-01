@@ -1,0 +1,9 @@
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/install/strip.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/install/local.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/install.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/list_install_components.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/rebuild_cache.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/edit_cache.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/test.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/car_uninstall.dir
+/home/garv/Desktop/Project/src/build/car/CMakeFiles/uninstall.dir
