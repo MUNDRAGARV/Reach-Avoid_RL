@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Experiment outputs
+experiments/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Pickle files
+*.pkl
+
+# Build
+dist/
+build/
